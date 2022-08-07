@@ -1,0 +1,129 @@
+it(
+    'checkout journey'
+    function(){
+        addLineFacilityForm.setFirtsName("atha");
+        addLineFacilityForm.setLastName("fernandes");
+        addLineFacilityForm.setPostalcodes("40911");
+        addLineFacilityForm.getSubmitButton().click();
+        
+    }
+)
+it(
+    'testcase1'
+    function(){
+        addLineFacilityForm.setFirtsName("atha");
+        addLineFacilityForm.setLastName("");
+        addLineFacilityForm.setPostalcodes("");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+        
+    }
+)
+it(
+    'testcase2'
+    function(){
+        addLineFacilityForm.setFirtsName("");
+        addLineFacilityForm.setLastName("fernandes");
+        addLineFacilityForm.setPostalcodes("");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+        
+    }
+)
+it(
+    'testcase3'
+    function(){
+        addLineFacilityForm.setFirtsName("");
+        addLineFacilityForm.setLastName("");
+        addLineFacilityForm.setPostalcodes("40911");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+        
+    }
+)
+it(
+    'testcase4'
+    function(){
+        addLineFacilityForm.setFirtsName("atha");
+        addLineFacilityForm.setLastName("fernandes");
+        addLineFacilityForm.setPostalcodes("");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+        
+    }
+)
+it(
+    'testcase5'
+    function(){
+        addLineFacilityForm.setFirtsName("");
+        addLineFacilityForm.setLastName("fernandes");
+        addLineFacilityForm.setPostalcodes("40911");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+        
+    }
+)
+it(
+    'testcase6'
+    function(){
+        addLineFacilityForm.setFirtsName("atha");
+        addLineFacilityForm.setLastName("");
+        addLineFacilityForm.setPostalcodes("40911");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+        
+    }
+)
+it(
+    'testcase7'
+    function(){
+        addLineFacilityForm.setFirtsName("atha8");
+        addLineFacilityForm.setLastName("fernandes9");
+        addLineFacilityForm.setPostalcodes("z40911");
+        addLineFacilityForm.getSubmitButton().click();
+        
+    }
+)
+it(
+    'testcase8'
+    function(){
+        addLineFacilityForm.setFirtsName("atha8");
+        addLineFacilityForm.setLastName("");
+        addLineFacilityForm.setPostalcodes("z40911");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+    }
+)
+it(
+    'testcase9'
+    function(){
+        addLineFacilityForm.setFirtsName("");
+        addLineFacilityForm.setLastName("fernandes9");
+        addLineFacilityForm.setPostalcodes("z40911");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+        
+    }
+)
+it(
+    'testcase10'
+    function(){
+        addLineFacilityForm.setFirtsName("atha8");
+        addLineFacilityForm.setLastName("fernandes9");
+        addLineFacilityForm.setPostalcodes("z40911");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+        
+    }
+)
+it(
+    'testcase11'
+    function(){
+        addLineFacilityForm.setFirtsName("");
+        addLineFacilityForm.setLastName("");
+        addLineFacilityForm.setPostalcodes("z40911");
+        addLineFacilityForm.getSubmitButton().click();
+        addLineFacilityForm.getAlertError();
+        
+    }
+)
